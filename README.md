@@ -19,3 +19,9 @@ Can't use 'defined(@array)' (Maybe you should just omit the defined()?) at kerne
 nano $(date +%Y%m%d)/rock-bsp/boards/rock/linux-rockchip/kernel/timeconst.pl
 /rabian-build.sh rock
 ````
+
+First Access
+------------
+
+usernme: rock
+passwd: rock
