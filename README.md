@@ -1,6 +1,7 @@
 # Radxa-Rock-RK3166
 Notes on flashing and usage of Radxa Rock boards.
 
+https://wiki.radxa.com/File:Rock_front.jpg
 
 ````
 apt install lzop libusb-1.0-0-dev git
