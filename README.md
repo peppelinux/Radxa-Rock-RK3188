@@ -40,3 +40,4 @@ External Resources
 
 - https://github.com/hanwckf/rk3066a-box-4.4
 - https://wiki.radxa.com/Rock/flash_the_image
+- https://gist.github.com/sarg/5028505
