@@ -64,6 +64,7 @@ External Resources
 
 Build your own image
 - https://wiki.radxa.com/Rock/make_sd_image
+- https://lewin.co.il/compiling-new-kernel-for-radxa-rock-pro-rtl8187l-support/
 
 Backup
 - https://wiki.radxa.com/Backup_and_deploy
