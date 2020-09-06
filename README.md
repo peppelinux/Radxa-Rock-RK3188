@@ -35,6 +35,26 @@ First Access
 usernme: rock
 passwd: rock
 
+Build your own Kernel image
+---------------------------
+
+````
+apt install flex bison
+apt install git build-essential gcc-arm-linux-gnueabihf lzop libncurses5-dev libssl-dev bc
+git clone -b stable --depth 1 git://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git
+
+cd linux-next
+wget http://rockchip.fr/radxa/linux/rockchip_defconfig -O arch/arm/configs/rockchip_defconfig
+wget http://rockchip.fr/radxa/linux/rk3188-radxarock.dts -O arch/arm/boot/dts/rk3188-radxarock.dts
+
+export ARCH=arm
+export CROSS_COMPILE=arm-linux-gnueabihf-
+
+make rockchip_defconfig
+
+````
+
+
 External Resources
 ------------------
 
@@ -42,6 +62,11 @@ External Resources
 - https://wiki.radxa.com/Rock/flash_the_image
 - https://gist.github.com/sarg/5028505
 
+Build your own image
+- https://wiki.radxa.com/Rock/make_sd_image
+
+Backup
+- https://wiki.radxa.com/Backup_and_deploy
 
 Todo
 ----
