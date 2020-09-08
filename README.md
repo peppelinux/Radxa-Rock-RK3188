@@ -46,6 +46,16 @@ git clone -b stable --depth 1 git://git.kernel.org/pub/scm/linux/kernel/git/next
 cd linux-next
 wget http://rockchip.fr/radxa/linux/rockchip_defconfig -O arch/arm/configs/rockchip_defconfig
 wget http://rockchip.fr/radxa/linux/rk3188-radxarock.dts -O arch/arm/boot/dts/rk3188-radxarock.dts
+````
+
+Other RK3188 DTS:
+- https://github.com/RobertCNelson/device-tree-rebasing/blob/master/src/arm/rk3188-radxarock.dts
+- https://elixir.bootlin.com/linux/latest/source/arch/arm/boot/dts/rk3188-radxarock.dts
+- Kernel 5.9 http://sbexr.rabexc.org/latest/sources/56/809f64bee90a72.html
+- 
+
+
+````
 
 export ARCH=arm
 export CROSS_COMPILE=arm-linux-gnueabihf-
@@ -68,6 +78,9 @@ Build your own image
 
 Backup
 - https://wiki.radxa.com/Backup_and_deploy
+
+Understanding DTS/DTB:
+- https://elinux.org/images/f/f9/Petazzoni-device-tree-dummies_0.pdf
 
 Todo
 ----
