@@ -1,0 +1,579 @@
+[00:46:32:114] DDR Version 1.04 20140217␍␊
+[00:46:32:118] In␍␊
+[00:46:32:118] SRX␍␊
+[00:46:32:118] DDR3␍␊
+[00:46:32:121] 300MHz␍␊
+[00:46:32:124] Bus Width=32 Col=10 Bank=8 Row=15 CS=2 Die Bus-Width=16 Size=2048MB␍␊
+[00:46:32:128] OUT␍␊
+[00:46:32:375] BUILD==2.18 2 ␍␊
+[00:46:32:377] No.1 FLASH ID:2c 64 44 4b a9 0␍␊
+[00:46:32:383] No.2 FLASH ID:f7 ff ff ff ff ff␍␊
+[00:46:32:383] No.3 FLASH ID:f7 ff ff ff ff ff␍␊
+[00:46:32:387] No.4 FLASH ID:51 ff ff ff ff ff␍␊
+[00:46:32:700] OK! 324931␍␊
+[00:46:32:701] unsigned!␍␊
+[00:46:32:707] SecureBootEn = 0 0␍␊
+[00:46:32:707] Boot ver: 2014-10-29#2.19␍␊
+[00:46:32:707] start_linux=====329774␍␊
+[00:46:35:047]  2672153 Starting kernel...@0x60408000␍␊
+[00:46:35:051] ␍␊
+[00:46:35:072] Uncompressing Linux... done, booting the kernel.␍␊
+[00:46:35:385] [    0.000000] Initializing cgroup subsys cpu␍␊
+[00:46:35:390] ␍[    0.000000] Linux version 3.0.36+ (wert@wert-desktop) (gcc version 4.6.x-google 20120106 (prerelease) (GCC) ) #1 SMP PREEMPT Sat Sep 5 01:29:18 CEST 2020␍␊
+[00:46:35:406] ␍[    0.000000] CPU: ARMv7 Processor [413fc090] revision 0 (ARMv7), cr=10c5387d␍␊
+[00:46:35:412] ␍[    0.000000] CPU: VIPT nonaliasing data cache, VIPT aliasing instruction cache␍␊
+[00:46:35:424] ␍[    0.000000] Machine: RK30board␍␊
+[00:46:35:426] ␍[    0.000000] ddr size = 2048 M, set ion_reserve_size size to 125829120␍␊
+[00:46:35:431] ␍[    0.000000] memory reserve: Memory(base:0x98800000 size:120M) reserved for <ion>␍␊
+[00:46:35:442] ␍[    0.000000] memory reserve: Memory(base:0x97000000 size:24M) reserved for <fb0 buf>␍␊
+[00:46:35:448] ␍[    0.000000] memory reserve: Total reserved 144M␍␊
+[00:46:35:455] ␍[    0.000000] Memory policy: ECC disabled, Data cache writeback␍␊
+[00:46:35:462] ␍[    0.000000] bootconsole [earlycon0] enabled␍␊
+[00:46:35:466] ␍[    0.000000] CPU SRAM: copied sram code from c0cfa000 to fef00100 - fef02040␍␊
+[00:46:35:474] ␍[    0.000000] CPU SRAM: copied sram data from c0cfbf40 to fef02040 - fef02970␍␊
+[00:46:35:482] ␍[    0.000000] sram_log:   @      0q   @       P    1      /  !    aB@ 2   `" 2q    : 4q ␍␊
+[00:46:35:488] ␍[    0.000000] CLKDATA_MSG: pll_flag = 0x00␍␊
+[00:46:35:493] ␍[    0.000000] CLKDATA_ERR:⇥	can't get a available nume and deno␍␊
+[00:46:35:502] ␍[    0.000000] CLKDATA_ERR:⇥	clk_frac_div can't get rate=48000000,uart0_frac_div␍␊
+[00:46:35:507] ␍[    0.000000] L310 cache controller enabled␍␊
+[00:46:35:512] ␍[    0.000000] l2x0: 16 ways, CACHE_ID 0x4100c0c8, AUX_CTRL 0x76050001, Cache size: 524288 B␍␊
+[00:46:35:524] ␍[    0.000000] DDR DEBUG: version 1.00 20131106 ␍␊
+[00:46:35:529] ␍[    0.000000] DDR DEBUG: DDR3 Device␍␊
+[00:46:35:530] ␍[    0.000000] DDR DEBUG: Bus Width=32 Col=10 Bank=8 Row=15 CS=2 Total Capability=2048MB␍␊
+[00:46:35:538] ␍[    0.000000] DDR DEBUG: init success!!! freq=300MHz␍␊
+[00:46:35:547] ␍[    0.000000] DDR DEBUG: DTONE=0x1, DTERR=0x0, DTIERR=0x0, DTPASS=0x24, DGSL=1 extra clock, DGPS=360␍␊
+[00:46:35:557] ␍[    0.000000] DDR DEBUG: DTONE=0x1, DTERR=0x0, DTIERR=0x0, DTPASS=0x24, DGSL=1 extra clock, DGPS=270␍␊
+[00:46:35:567] ␍[    0.000000] DDR DEBUG: DTONE=0x1, DTERR=0x0, DTIERR=0x0, DTPASS=0x24, DGSL=1 extra clock, DGPS=360␍␊
+[00:46:35:574] ␍[    0.000000] DDR DEBUG: DTONE=0x1, DTERR=0x0, DTIERR=0x0, DTPASS=0x1c, DGSL=1 extra clock, DGPS=270␍␊
+[00:46:35:587] ␍[    0.000000] DDR DEBUG: ZERR=0, ZDONE=0, ZPD=0x0, ZPU=0x0, OPD=0x0, OPU=0x0␍␊
+[00:46:35:591] ␍[    0.000000] DDR DEBUG: DRV Pull-Up=0xb, DRV Pull-Dwn=0xb␍␊
+[00:46:35:597] ␍[    0.000000] DDR DEBUG: ODT Pull-Up=0x2, ODT Pull-Dwn=0x2␍␊
+[00:46:35:606] ␍[    0.000000] PERCPU: Embedded 7 pages/cpu @c350d000 s7040 r8192 d13440 u32768␍␊
+[00:46:35:674] ␍[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 483328␍␊
+[00:46:35:683] ␍[    0.000000] Kernel command line: console=ttyFIQ0,115200 console=tty0 root=/dev/block/mtd/by-name/linuxroot rw rootfstype=ext4 init=/sbin/init mac_addr=de:ad:de:ad:be:ef initrd=0x62000000,0x00500000 mtdparts=rk29xxnand:0x00002000@0x00002000(uboot),0x00008000@0x00004000(boot),-@0x000c0000(linuxroot) bootver=2014-10-29#2.19 firmware_ver=1.0.0␍␊
+[00:46:35:716] ␍[    0.000000] PID hash table entries: 2048 (order: 1, 8192 bytes)␍␊
+[00:46:35:723] ␍[    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)␍␊
+[00:46:35:731] ␍[    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)␍␊
+[00:46:35:739] ␍[    0.000000] allocated 8388608 bytes of page_cgroup␍␊
+[00:46:35:756] ␍[    0.000000] please try 'cgroup_disable=memory' option if you don't want memory cgroups␍␊
+[00:46:35:765] ␍[    0.000000] Memory: 880MB 1024MB = 1904MB total␍␊
+[00:46:36:096] ␍[    0.000000] Memory: 1899216k/1899216k available, 197936k reserved, 1449984K highmem␍␊
+[00:46:36:104] ␍[    0.000000] Virtual kernel memory layout:␍␊
+[00:46:36:109] ␍[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)␍␊
+[00:46:36:115] ␍[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)␍␊
+[00:46:36:122] ␍[    0.000000]     DMA     : 0xff600000 - 0xffe00000   (   8 MB)␍␊
+[00:46:36:128] ␍[    0.000000]     vmalloc : 0xdf000000 - 0xfe800000   ( 504 MB)␍␊
+[00:46:36:135] ␍[    0.000000]     lowmem  : 0xc0000000 - 0xde800000   ( 488 MB)␍␊
+[00:46:36:141] ␍[    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)␍␊
+[00:46:36:147] ␍[    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)␍␊
+[00:46:36:154] ␍[    0.000000]       .init : 0xc0408000 - 0xc0437000   ( 188 kB)␍␊
+[00:46:36:160] ␍[    0.000000]       .text : 0xc0437000 - 0xc0c6e828   (8415 kB)␍␊
+[00:46:36:166] ␍[    0.000000]       .data : 0xc0c70000 - 0xc0cf9968   ( 551 kB)␍␊
+[00:46:36:176] ␍[    0.000000]        .bss : 0xc0cfd024 - 0xc17ba598   (10998 kB)␍␊
+[00:46:36:182] ␍[    0.000000] SLUB: Genslabs=13, HWalign=32, Order=0-3, MinObjects=0, CPUs=4, Nodes=1␍␊
+[00:46:36:188] ␍[    0.000000] Preemptible hierarchical RCU implementation.␍␊
+[00:46:36:197] ␍[    0.000000] NR_IRQS:352␍␊
+[00:46:36:197] ␍[    0.000000] rk30_gpio_init: 128 gpio irqs in 4 banks␍␊
+[00:46:36:204] ␍[    0.000000] sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 178956ms␍␊
+[00:46:36:216] ␍[    0.000000] rk_timer: version 1.3␍␊
+[00:46:36:216] ␍[    0.000000] Console: colour dummy device 80x30␍␊
+[00:46:36:221] ␍[    0.000000] console [tty0] enabled, bootconsole disabled␍␊
+[00:46:36:227] ␍<hit enter to activate fiq debugger>␍␊
+[00:46:36:426] [    0.000000] Initializing cgroup subsys cpu␍␊
+[00:46:36:433] [    0.000000] Linux version 3.0.36+ (wert@wert-desktop) (gcc version 4.6.x-google 20120106 (prerelease) (GCC) ) #1 SMP PREEMPT Sat Sep 5 01:29:18 CEST 2020␍␊
+[00:46:36:446] [    0.000000] CPU: ARMv7 Processor [413fc090] revision 0 (ARMv7), cr=10c5387d␍␊
+[00:46:36:450] [    0.000000] CPU: VIPT nonaliasing data cache, VIPT aliasing instruction cache␍␊
+[00:46:36:457] [    0.000000] Machine: RK30board␍␊
+[00:46:36:461] [    0.000000] ddr size = 2048 M, set ion_reserve_size size to 125829120␍␊
+[00:46:36:467] [    0.000000] memory reserve: Memory(base:0x98800000 size:120M) reserved for <ion>␍␊
+[00:46:36:474] [    0.000000] memory reserve: Memory(base:0x97000000 size:24M) reserved for <fb0 buf>␍␊
+[00:46:36:485] [    0.000000] memory reserve: Total reserved 144M␍␊
+[00:46:36:486] [    0.000000] Memory policy: ECC disabled, Data cache writeback␍␊
+[00:46:36:492] [    0.000000] bootconsole [earlycon0] enabled␍␊
+[00:46:36:499] [    0.000000] CPU SRAM: copied sram code from c0cfa000 to fef00100 - fef02040␍␊
+[00:46:36:506] [    0.000000] CPU SRAM: copied sram data from c0cfbf40 to fef02040 - fef02970␍␊
+[00:46:36:510] [    0.000000] sram_log:   @      0q   @       P    1      /  !    aB@ 2   `" 2q    : 4q ␍␊
+[00:46:36:518] [    0.000000] CLKDATA_MSG: pll_flag = 0x00␍␊
+[00:46:36:525] [    0.000000] CLKDATA_ERR:⇥	can't get a available nume and deno␍␊
+[00:46:36:530] [    0.000000] CLKDATA_ERR:⇥	clk_frac_div can't get rate=48000000,uart0_frac_div␍␊
+[00:46:36:535] [    0.000000] L310 cache controller enabled␍␊
+[00:46:36:538] [    0.000000] l2x0: 16 ways, CACHE_ID 0x4100c0c8, AUX_CTRL 0x76050001, Cache size: 524288 B␍␊
+[00:46:36:547] [    0.000000] DDR DEBUG: version 1.00 20131106 ␍␊
+[00:46:36:551] [    0.000000] DDR DEBUG: DDR3 Device␍␊
+[00:46:36:554] [    0.000000] DDR DEBUG: Bus Width=32 Col=10 Bank=8 Row=15 CS=2 Total Capability=2048MB␍␊
+[00:46:36:562] [    0.000000] DDR DEBUG: init success!!! freq=300MHz␍␊
+[00:46:36:570] [    0.000000] DDR DEBUG: DTONE=0x1, DTERR=0x0, DTIERR=0x0, DTPASS=0x24, DGSL=1 extra clock, DGPS=360␍␊
+[00:46:36:579] [    0.000000] DDR DEBUG: DTONE=0x1, DTERR=0x0, DTIERR=0x0, DTPASS=0x24, DGSL=1 extra clock, DGPS=270␍␊
+[00:46:36:585] [    0.000000] DDR DEBUG: DTONE=0x1, DTERR=0x0, DTIERR=0x0, DTPASS=0x24, DGSL=1 extra clock, DGPS=360␍␊
+[00:46:36:597] [    0.000000] DDR DEBUG: DTONE=0x1, DTERR=0x0, DTIERR=0x0, DTPASS=0x1c, DGSL=1 extra clock, DGPS=270␍␊
+[00:46:36:606] [    0.000000] DDR DEBUG: ZERR=0, ZDONE=0, ZPD=0x0, ZPU=0x0, OPD=0x0, OPU=0x0␍␊
+[00:46:36:610] [    0.000000] DDR DEBUG: DRV Pull-Up=0xb, DRV Pull-Dwn=0xb␍␊
+[00:46:36:615] [    0.000000] DDR DEBUG: ODT Pull-Up=0x2, ODT Pull-Dwn=0x2␍␊
+[00:46:36:620] [    0.000000] PERCPU: Embedded 7 pages/cpu @c350d000 s7040 r8192 d13440 u32768␍␊
+[00:46:36:627] [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 483328␍␊
+[00:46:36:638] [    0.000000] Kernel command line: console=ttyFIQ0,115200 console=tty0 root=/dev/block/mtd/by-name/linuxroot rw rootfstype=ext4 init=/sbin/init mac_addr=de:ad:de:ad:be:ef initrd=0x62000000,0x00500000 mtdparts=rk29xxnand:0x00002000@0x00002000(uboot),0x00008000@0x00004000(boot),-@0x000c0000(linuxroot) bootver=2014-10-29#2.19 firmware_ver=1.0.0␍␊
+[00:46:36:668] [    0.000000] PID hash table entries: 2048 (order: 1, 8192 bytes)␍␊
+[00:46:36:671] [    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)␍␊
+[00:46:36:678] [    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)␍␊
+[00:46:36:685] [    0.000000] allocated 8388608 bytes of page_cgroup␍␊
+[00:46:36:689] [    0.000000] please try 'cgroup_disable=memory' option if you don't want memory cgroups␍␊
+[00:46:36:697] [    0.000000] Memory: 880MB 1024MB = 1904MB total␍␊
+[00:46:36:702] [    0.000000] Memory: 1899216k/1899216k available, 197936k reserved, 1449984K highmem␍␊
+[00:46:36:709] [    0.000000] Virtual kernel memory layout:␍␊
+[00:46:36:713] [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)␍␊
+[00:46:36:719] [    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)␍␊
+[00:46:36:725] [    0.000000]     DMA     : 0xff600000 - 0xffe00000   (   8 MB)␍␊
+[00:46:36:731] [    0.000000]     vmalloc : 0xdf000000 - 0xfe800000   ( 504 MB)␍␊
+[00:46:36:736] [    0.000000]     lowmem  : 0xc0000000 - 0xde800000   ( 488 MB)␍␊
+[00:46:36:742] [    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)␍␊
+[00:46:36:748] [    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)␍␊
+[00:46:36:753] [    0.000000]       .init : 0xc0408000 - 0xc0437000   ( 188 kB)␍␊
+[00:46:36:759] [    0.000000]       .text : 0xc0437000 - 0xc0c6e828   (8415 kB)␍␊
+[00:46:36:765] [    0.000000]       .data : 0xc0c70000 - 0xc0cf9968   ( 551 kB)␍␊
+[00:46:36:771] [    0.000000]        .bss : 0xc0cfd024 - 0xc17ba598   (10998 kB)␍␊
+[00:46:36:777] [    0.000000] SLUB: Genslabs=13, HWalign=32, Order=0-3, MinObjects=0, CPUs=4, Nodes=1␍␊
+[00:46:36:784] [    0.000000] Preemptible hierarchical RCU implementation.␍␊
+[00:46:36:789] [    0.000000] NR_IRQS:352␍␊
+[00:46:36:793] [    0.000000] rk30_gpio_init: 128 gpio irqs in 4 banks␍␊
+[00:46:36:797] [    0.000000] sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 178956ms␍␊
+[00:46:36:804] [    0.000000] rk_timer: version 1.3␍␊
+[00:46:36:808] [    0.000000] Console: colour dummy device 80x30␍␊
+[00:46:36:815] [    0.000000] console [tty0] enabled, bootconsole disabled␍␊
+[00:46:36:817] [    0.014685] Calibrating delay loop (skipped) preset value.. 1583.48 BogoMIPS (lpj=7917420)␍␊
+[00:46:36:829] [    0.014716] pid_max: default: 32768 minimum: 301␍␊
+[00:46:36:830] [    0.014855] Security Framework initialized␍␊
+[00:46:36:834] [    0.014874] SELinux:  Initializing.␍␊
+[00:46:36:838] [    0.014980] Mount-cache hash table entries: 512␍␊
+[00:46:36:842] [    0.015532] Initializing cgroup subsys debug␍␊
+[00:46:36:846] [    0.015554] Initializing cgroup subsys cpuacct␍␊
+[00:46:36:851] [    0.015596] Initializing cgroup subsys memory␍␊
+[00:46:36:855] [    0.015632] Initializing cgroup subsys freezer␍␊
+[00:46:36:859] [    0.015672] CPU: Testing write buffer coherency: ok␍␊
+[00:46:36:864] [    0.096431] CPU1: Booted secondary processor␍␊
+[00:46:36:872] [    0.136425] CPU2: Booted secondary processor␍␊
+[00:46:36:876] [    0.176426] CPU3: Booted secondary processor␍␊
+[00:46:36:877] [    0.176467] Brought up 4 CPUs␍␊
+[00:46:36:880] [    0.176504] SMP: Total of 4 processors activated (6333.93 BogoMIPS).␍␊
+[00:46:36:886] [    0.176868] devtmpfs: initialized␍␊
+[00:46:36:889] [    0.182955] NET: Registered protocol family 16␍␊
+[00:46:36:894] [    0.183063] last_log: 0xde100000 map to 0xdf004000 and copy to 0xc0d011a0 (version 2.1)␍␊
+[00:46:36:905] [    0.198250] DVFS MSG:⇥	AVS Value(index=0): 128 128 127 128 128 128 128 128 129 128 ␍␊
+[00:46:36:909] [    0.208794] lcdc0 is used as external display device contoller!␍␊
+[00:46:36:915] [    0.208843] lcdc1 is used as primary display device controller!␍␊
+[00:46:36:924] [    0.209023] rk29sdk_wifi_bt_gpio_control_init: init finished␍␊
+[00:46:36:927] [    0.213011] console [ttyFIQ0] enabled␍␊
+[00:46:36:931] [    0.213186] Registered FIQ tty driver de03ecc0␍␊
+[00:46:36:935] [    0.213831] Loaded driver for PL330 DMAC-1 rk29-pl330␍␊
+[00:46:36:940] [    0.213893] ⇥	DBUFF-32x8bytes Num_Chans-6 Num_Peri-12 Num_Events-12␍␊
+[00:46:36:946] [    0.214120] Loaded driver for PL330 DMAC-2 rk29-pl330␍␊
+[00:46:36:951] [    0.214184] ⇥	DBUFF-64x8bytes Num_Chans-7 Num_Peri-20 Num_Events-14␍␊
+[00:46:36:961] [    0.745222] bio: create slab <bio-0> at 0␍␊
+[00:46:36:965] [    0.749671] SCSI subsystem initialized␍␊
+[00:46:36:969] [    0.749921] usbcore: registered new interface driver usbfs␍␊
+[00:46:36:971] [    0.750060] usbcore: registered new interface driver hub␍␊
+[00:46:36:980] [    0.764267] usbcore: registered new device driver usb␍␊
+[00:46:36:982] [    0.764555] rk30_i2c rk30_i2c.0: i2c-0: RK30 I2C adapter␍␊
+[00:46:36:990] [    0.764822] rk30_i2c rk30_i2c.1: i2c-1: RK30 I2C adapter␍␊
+[00:46:36:992] [    0.765044] rk30_i2c rk30_i2c.2: i2c-2: RK30 I2C adapter␍␊
+[00:46:37:001] [    0.765204] rk30_i2c rk30_i2c.3: i2c-3: RK30 I2C adapter␍␊
+[00:46:37:003] [    0.765512] rk30_i2c rk30_i2c.4: i2c-4: RK30 I2C adapter␍␊
+[00:46:37:012] [    0.795894] rk30-adc rk30-adc: rk30 adc: driver initialized␍␊
+[00:46:37:017] [    0.795997] RK29 Watchdog Timer, (c) 2011 Rockchip Electronics␍␊
+[00:46:37:020] [    0.796238] rk29-wdt rk29-wdt.0: starting watchdog timer␍␊
+[00:46:37:025] [    0.796527] Advanced Linux Sound Architecture Driver Version 1.0.24.␍␊
+[00:46:37:031] [    0.797017] Bluetooth: Core ver 2.16␍␊
+[00:46:37:035] [    0.797111] NET: Registered protocol family 31␍␊
+[00:46:37:039] [    0.797166] Bluetooth: HCI device and connection manager initialized␍␊
+[00:46:37:049] [    0.797245] Bluetooth: HCI socket layer initialized␍␊
+[00:46:37:051] [    0.797304] Bluetooth: L2CAP socket layer initialized␍␊
+[00:46:37:056] [    0.797379] Bluetooth: SCO socket layer initialized␍␊
+[00:46:37:060] [    0.798494] rk fb probe ok!␍␊
+[00:46:37:063] [    0.803291] act8846_set_init,line=17␍␊
+[00:46:37:067] [    0.803345] act8846_set_init:g_pmic_type=3␍␊
+[00:46:37:071] [    0.805051] act8846_set_init  act_dcdc1 =1200000mV end␍␊
+[00:46:37:076] [    0.806851] act8846_set_init  vdd_core =1000000mV end␍␊
+[00:46:37:084] [    0.808646] act8846_set_init  vdd_cpu =1000000mV end␍␊
+[00:46:37:086] [    0.810439] act8846_set_init  act_dcdc4 =3300000mV end␍␊
+[00:46:37:091] [    0.811637] act8846_set_init  act_ldo1 =1000000mV end␍␊
+[00:46:37:096] [    0.813331] act8846_set_init  act_ldo2 =1200000mV end␍␊
+[00:46:37:101] [    0.815027] act8846_set_init  act_ldo3 =1800000mV end␍␊
+[00:46:37:106] [    0.816724] act8846_set_init  act_ldo4 =3300000mV end␍␊
+[00:46:37:114] [    0.818418] act8846_set_init  act_ldo5 =3300000mV end␍␊
+[00:46:37:119] [    0.820108] act8846_set_init  act_ldo6 =1800000mV end␍␊
+[00:46:37:121] [    0.821207] act8846_set_init  act_ldo7 =1800000mV end␍␊
+[00:46:37:126] [    0.822904] act8846_set_init  act_ldo8 =2800000mV end␍␊
+[00:46:37:134] [    0.822974] act8846_set_init,line=78 END␍␊
+[00:46:37:135] [    0.823059] i2c-core: driver [act8846] using legacy suspend method␍␊
+[00:46:37:144] [    0.823130] i2c-core: driver [act8846] using legacy resume method␍␊
+[00:46:37:147] [    0.823231] rk1000_control_probe␍␊
+[00:46:37:151] [    0.848206] rk1000_control_probe ok␍␊
+[00:46:37:154] [    0.848307] Switching to clocksource rk_timer␍␊
+[00:46:37:158] [    0.855901] Switched to NOHz mode on CPU #0␍␊
+[00:46:37:162] [    0.856464] Switched to NOHz mode on CPU #3␍␊
+[00:46:37:169] [    0.856477] Switched to NOHz mode on CPU #2␍␊
+[00:46:37:171] [    0.856489] Switched to NOHz mode on CPU #1␍␊
+[00:46:37:175] [    0.857066] lcdc1:reg_phy_base = 0x1010e000,reg_vir_base:0xdf0ac000␍␊
+[00:46:37:183] [    0.857190] fb0:win0␍␊
+[00:46:37:187] [    0.857195] fb1:win1␍␊
+[00:46:37:187] [    0.857200] fb2:win2␍␊
+[00:46:37:190] [    0.857322] rk3188 lcdc1 clk enable...␍␊
+[00:46:37:194] [    0.882439] rk3188 lcdc1 clk disable...␍␊
+[00:46:37:197] [    0.941736] fb0:phy:97000000>>vir:e0000000>>len:0x1800000␍␊
+[00:46:37:201] [    0.942045] rk_fb_register>>>>>fb0␍␊
+[00:46:37:204] [    0.942395] rk_fb_register>>>>>fb1␍␊
+[00:46:37:208] [    0.942865] rk3188 lcdc1 probe ok!␍␊
+[00:46:37:212] [    0.942949] lcdc0:reg_phy_base = 0x1010c000,reg_vir_base:0xdf0c0000␍␊
+[00:46:37:217] [    0.943042] fb0:win0␍␊
+[00:46:37:221] [    0.943047] fb1:win1␍␊
+[00:46:37:224] [    0.943052] fb2:win2␍␊
+[00:46:37:224] [    0.943172] rk3188 lcdc0 clk enable...␍␊
+[00:46:37:227] [    0.968267] rk3188 lcdc0 clk disable...␍␊
+[00:46:37:233] [    0.968322] fb2:phy:97000000>>vir:e0000000>>len:0x1800000␍␊
+[00:46:37:239] [    0.968588] rk_fb_register>>>>>fb2␍␊
+[00:46:37:242] [    0.968888] rk_fb_register>>>>>fb3␍␊
+[00:46:37:245] [    0.968935] rk3188 lcdc0 probe ok!␍␊
+[00:46:37:248] [    1.030012] IT66121 probe success.␍␊
+[00:46:37:251] [    1.036990] NET: Registered protocol family 2␍␊
+[00:46:37:257] [    1.037173] IP route cache hash table entries: 16384 (order: 4, 65536 bytes)␍␊
+[00:46:37:262] [    1.037376] cfg80211: Calling CRDA to update world regulatory domain␍␊
+[00:46:37:268] [    1.037743] TCP established hash table entries: 65536 (order: 7, 524288 bytes)␍␊
+[00:46:37:276] [    1.038834] TCP bind hash table entries: 65536 (order: 7, 786432 bytes)␍␊
+[00:46:37:282] [    1.039988] TCP: Hash tables configured (established 65536 bind 65536)␍␊
+[00:46:37:290] [    1.040062] TCP reno registered␍␊
+[00:46:37:294] [    1.040107] UDP hash table entries: 256 (order: 1, 8192 bytes)␍␊
+[00:46:37:299] [    1.040189] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)␍␊
+[00:46:37:305] [    1.040524] NET: Registered protocol family 1␍␊
+[00:46:37:308] [    1.095255] RPC: Registered named UNIX socket transport module.␍␊
+[00:46:37:314] [    1.095334] RPC: Registered udp transport module.␍␊
+[00:46:37:319] [    1.095398] RPC: Registered tcp transport module.␍␊
+[00:46:37:325] [    1.095453] RPC: Registered tcp NFSv4.1 backchannel transport module.␍␊
+[00:46:37:331] [    1.095721] Unpacking initramfs...␍␊
+[00:46:37:360] [    1.147764] Initramfs unpacking failed: junk in compressed archive␍␊
+[00:46:37:369] [    1.148662] Freeing initrd memory: 5120K␍␊
+[00:46:37:373] [    1.148781] PMU: registered new PMU device of type 0␍␊
+[00:46:37:376] [    1.148928] efuse_version_val: efuse version = 51␍␊
+[00:46:37:381] [    1.148988] DVFS MSG: core: dvfs_adjust_table_lmtvolt get leakage_level = 15000␍␊
+[00:46:37:389] [    1.149072] ⇥	⇥	adjust table freq=1608000 KHz, index=1350000 mV to index=1300000 mV␍␊
+[00:46:37:395] [    1.149161] efuse_version_val: efuse version = 51␍␊
+[00:46:37:401] [    1.149216] DVFS MSG: aclk_gpu: dvfs_adjust_table_lmtvolt get leakage_level = 15000␍␊
+[00:46:37:410] [    1.194823] rk3188 cpufreq version 2.2, suspend freq 816 MHz␍␊
+[00:46:37:415] [    1.195166] vpu: power on␍␊
+[00:46:37:418] [    1.195249] VPU_SERVICE: checking hw id 4831␍␊
+[00:46:37:421] [    1.207796] vpu: power off...done␍␊
+[00:46:37:424] [    1.207875] VPU_SERVICE: init success␍␊
+[00:46:37:429] [    1.208187] audit: initializing netlink socket (disabled)␍␊
+[00:46:37:435] [    1.208281] type=2000 audit(1.180:1): initialized␍␊
+[00:46:37:438] [    1.210778] highmem bounce pool size: 64 pages␍␊
+[00:46:37:444] [    1.210968] ashmem: initialized␍␊
+[00:46:37:450] [    1.237213] Installing knfsd (copyright (C) 1996 okir@monad.swb.de).␍␊
+[00:46:37:458] [    1.238045] fuse init (API version 7.16)␍␊
+[00:46:37:461] [    1.238348] msgmni has been set to 887␍␊
+[00:46:37:466] [    1.252058] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)␍␊
+[00:46:37:474] [    1.252142] io scheduler noop registered␍␊
+[00:46:37:477] [    1.252191] io scheduler deadline registered␍␊
+[00:46:37:480] [    1.252283] io scheduler cfq registered (default)␍␊
+[00:46:37:486] [    1.272575] rga: Driver loaded succesfully␍␊
+[00:46:37:491] [    1.272720] rk3188 lcdc0 clk enable...␍␊
+[00:46:37:494] [    1.272758] lcdc0: dclk:148500000>>fps:60 ␍␊
+[00:46:37:497] [    1.272801] rk30-lcdc rk30-lcdc.0: rk3188_load_screen for lcdc0 ok!␍␊
+[00:46:37:506] [    1.273330] lcdc0: dclk:27000000>>fps:60 ␍␊
+[00:46:37:509] [    1.275552] rk30-lcdc rk30-lcdc.0: rk3188_load_screen for lcdc0 ok!␍␊
+[00:46:37:514] [    1.275621] rk3188 lcdc0 clk enable...␍␊
+[00:46:37:517] [    1.275663] lcdc0: dclk:27000000>>fps:60 ␍␊
+[00:46:37:523] [    1.277882] rk30-lcdc rk30-lcdc.0: rk3188_load_screen for lcdc0 ok!␍␊
+[00:46:37:528] [    1.277948] lcdc0 wakeup from standby!␍␊
+[00:46:37:531] [    1.278006] lcdc0 win0 open,atv layer:1␍␊
+[00:46:37:537] [    1.278057] lcdc0 win1 closed,atv layer:1␍␊
+[00:46:37:540] [    1.278100] rk1000_tv ver 2.0 probe ok␍␊
+[00:46:37:543] [    1.278368] rk_serial.c v1.6 2013-12-23␍␊
+[00:46:37:548] [    1.278615] rk_serial.0: ttyS0 at MMIO 0x10124000 (irq = 66) is a rk29_serial.0␍␊
+[00:46:37:556] [    1.278870] rk_serial rk_serial.0: membase 0xdf0c8000␍␊
+[00:46:37:559] [    1.278964] rk_serial.3: ttyS3 at MMIO 0x20068000 (irq = 69) is a rk29_serial.3␍␊
+[00:46:37:567] [    1.279153] rk_serial rk_serial.3: membase 0xdf0d0000␍␊
+[00:46:37:573] [    1.279441] Rockchip ion module(version: 1.0) is successfully loaded␍␊
+[00:46:37:579] [    1.281964] loop: module loaded␍␊
+[00:46:37:581] [    1.282070] Android kernel panic handler initialized (bind=kpanic)␍␊
+[00:46:37:587] [    1.282906] PPP generic driver version 2.4.2␍␊
+[00:46:37:593] [    1.283110] PPP Deflate Compression module registered␍␊
+[00:46:37:598] [    1.283163] PPP BSD Compression module registered␍␊
+[00:46:37:601] [    1.388207] PPP MPPE Compression module registered␍␊
+[00:46:37:606] [    1.388266] NET: Registered protocol family 24␍␊
+[00:46:37:612] [    1.388376] usbcore: registered new interface driver asix␍␊
+[00:46:37:618] [    1.388530] usbcore: registered new interface driver cdc_ether␍␊
+[00:46:37:623] [    1.388599] usbcore: registered new interface driver dm9620␍␊
+[00:46:37:629] [    1.388664] usbcore: registered new interface driver SR9700_android␍␊
+[00:46:37:634] [    1.388741] usbcore: registered new interface driver CoreChips␍␊
+[00:46:37:640] [    1.388807] usbcore: registered new interface driver net1080␍␊
+[00:46:37:646] [    1.388891] usbcore: registered new interface driver cdc_subset␍␊
+[00:46:37:651] [    1.388959] usbcore: registered new interface driver zaurus␍␊
+[00:46:37:657] [    1.389012] cdc_ncm: 04-Aug-2011␍␊
+[00:46:37:660] [    1.389059] usbcore: registered new interface driver cdc_ncm␍␊
+[00:46:37:666] [    1.389105] Rockchip WiFi SYS interface (V1.00) ... ␍␊
+[00:46:37:672] [    1.389173] Initializing USB Mass Storage driver...␍␊
+[00:46:37:674] [    1.389239] usbcore: registered new interface driver usb-storage␍␊
+[00:46:37:680] [    1.389287] USB Mass Storage support registered.␍␊
+[00:46:37:686] [    1.389388] usbcore: registered new interface driver usbserial␍␊
+[00:46:37:691] [    1.389454] USB Serial support registered for generic␍␊
+[00:46:37:697] [    1.389519] usbcore: registered new interface driver usbserial_generic␍␊
+[00:46:37:703] [    1.389571] usbserial: USB Serial Driver core␍␊
+[00:46:37:709] [    1.389624] USB Serial support registered for GSM modem (1-port)␍␊
+[00:46:37:715] [    1.389697] usbcore: registered new interface driver option␍␊
+[00:46:37:718] [    1.389741] option: v0.7.2:USB Driver for GSM modems␍␊
+[00:46:37:725] [    1.389797] USB Serial support registered for usi-modem␍␊
+[00:46:37:731] [    1.389859] usbcore: registered new interface driver usi-modem␍␊
+[00:46:37:814] [    1.601423] DWC_OTG: ^^^^^^^^^^^^^^^^^Device Mode␍␊
+[00:46:37:823] [    1.601477] usb20_otg usb20_otg: DWC OTG Controller␍␊
+[00:46:37:827] [    1.601599] usb20_otg usb20_otg: new USB bus registered, assigned bus number 1␍␊
+[00:46:37:833] [    1.601681] usb20_otg usb20_otg: irq 48, io mem 0x00000000␍␊
+[00:46:37:836] [    1.601725] DWC_OTG: dwc_otg_hcd_start controller in device mode,everest␍␊
+[00:46:37:846] [    1.601821] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002␍␊
+[00:46:37:851] [    1.601878] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1␍␊
+[00:46:37:857] [    1.601938] usb usb1: Product: DWC OTG Controller␍␊
+[00:46:37:863] [    1.601976] usb usb1: Manufacturer: Linux 3.0.36+ dwc_otg_hcd␍␊
+[00:46:37:869] [    1.602022] usb usb1: SerialNumber: usb20_otg␍␊
+[00:46:37:872] [    1.602361] hub 1-0:1.0: USB hub found␍␊
+[00:46:37:878] [    1.602404] hub 1-0:1.0: 1 port detected␍␊
+[00:46:37:881] [    1.605017] DWC_OTG: host20_driver_probe host2.0 reg addr: 0x101c0000 remap:0xdf180000␍␊
+[00:46:38:028] [    1.815415] DWC_OTG: ^^^^^^^^^^^^^^^^^^Host Mode␍␊
+[00:46:38:033] [    1.815467] usb20_host usb20_host: DWC OTG Controller␍␊
+[00:46:38:041] [    1.815554] usb20_host usb20_host: new USB bus registered, assigned bus number 2␍␊
+[00:46:38:047] [    1.815641] usb20_host usb20_host: irq 49, io mem 0x00000000␍␊
+[00:46:38:053] [    1.815725] DWC_OTG: Init: Port Power? op_state=1␍␊
+[00:46:38:056] [    1.815766] DWC_OTG: Init: Power Port (0)␍␊
+[00:46:38:062] [    1.815839] usb usb2: New USB device found, idVendor=1d6b, idProduct=0002␍␊
+[00:46:38:068] [    1.815895] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1␍␊
+[00:46:38:073] [    1.815955] usb usb2: Product: DWC OTG Controller␍␊
+[00:46:38:079] [    1.815995] usb usb2: Manufacturer: Linux 3.0.36+ host20_hcd␍␊
+[00:46:38:085] [    1.816044] usb usb2: SerialNumber: usb20_host␍␊
+[00:46:38:088] [    1.816402] hub 2-0:1.0: USB hub found␍␊
+[00:46:38:094] [    1.816444] hub 2-0:1.0: 1 port detected␍␊
+[00:46:38:097] [    1.883360] android_usb gadget: Mass Storage Function, version: 2009/09/11␍␊
+[00:46:38:105] [    1.883422] android_usb gadget: Number of LUNs=2␍␊
+[00:46:38:108] [    1.883469]  lun0: LUN: removable file: (no medium)␍␊
+[00:46:38:114] [    1.883508]  lun1: LUN: removable file: (no medium)␍␊
+[00:46:38:119] [    1.883730] android_usb gadget: android_usb ready␍␊
+[00:46:38:122] [    1.883920] input: rk29-keypad as /devices/platform/rk29-keypad/input/input0␍␊
+[00:46:38:131] [    1.884159] usbcore: registered new interface driver xpad␍␊
+[00:46:38:136] [    1.884339] ===================================================␍␊
+[00:46:38:142] [    1.884385] Rockchip IR remote controller driver. Version 1.0.0␍␊
+[00:46:38:148] [    1.884430] ===================================================␍␊
+[00:46:38:154] [    1.884474] ++++++++remotectl_init␍␊
+[00:46:38:157] [    1.884531] remotectl probe j=0x0␍␊
+[00:46:38:160] [    1.884559] remotectl probe j=0x1␍␊
+[00:46:38:163] [    1.884586] remotectl probe j=0x2␍␊
+[00:46:38:166] [    1.884614] remotectl probe j=0x3␍␊
+[00:46:38:169] [    1.884640] remotectl probe j=0x4␍␊
+[00:46:38:172] [    1.884667] remotectl probe j=0x5␍␊
+[00:46:38:175] [    1.884787] input: rkxx-remotectl as /devices/platform/rkxx-remotectl/input/input1␍␊
+[00:46:38:183] [    1.886915] rtc_hym8563 1-0051: clock/calendar information is no longer guaranteed␍␊
+[00:46:38:192] [    1.889613] using rtc device, rtc_hym8563, for alarms␍␊
+[00:46:38:197] [    1.889669] rtc_hym8563 1-0051: rtc core: registered rtc_hym8563 as rtc0␍␊
+[00:46:38:203] [    1.889746] i2c /dev entries driver␍␊
+[00:46:38:206] [    1.890200] lirc_dev: IR Remote Control driver registered, major 250 ␍␊
+[00:46:38:212] [    1.890254] IR NEC protocol handler initialized␍␊
+[00:46:38:217] [    1.890289] IR RC5(x) protocol handler initialized␍␊
+[00:46:38:223] [    1.890325] IR RC6 protocol handler initialized␍␊
+[00:46:38:226] [    1.890359] IR JVC protocol handler initialized␍␊
+[00:46:38:232] [    1.890394] IR Sony protocol handler initialized␍␊
+[00:46:38:235] [    1.890430] IR RC5 (streamzap) protocol handler initialized␍␊
+[00:46:38:240] [    1.890472] IR LIRC bridge handler initialized␍␊
+[00:46:38:246] [    1.890506] Linux video capture interface: v2.00␍␊
+[00:46:38:249] [    1.890596] usbcore: registered new interface driver uvcvideo␍␊
+[00:46:38:255] [    1.890628] USB Video Class driver (v1.1.0)␍␊
+[00:46:38:261] [    1.890685] def_ref_volt: 1800mV, curr_ref_volt: 1800mV␍␊
+[00:46:38:264] [    1.890985] device-mapper: uevent: version 1.0.3␍␊
+[00:46:38:270] [    1.891194] device-mapper: ioctl: 4.20.0-ioctl (2011-02-02) initialised: dm-devel@redhat.com␍␊
+[00:46:38:278] [    1.891393] rtk_btusb: Realtek Bluetooth USB driver module init, version 2.16␍␊
+[00:46:38:287] [    1.891448] rtk_btusb: Register usb char device interface for BT driver␍␊
+[00:46:38:293] [    1.891602] usbcore: registered new interface driver rtk_btusb␍␊
+[00:46:38:298] [    1.891685] cpuidle: using governor ladder␍␊
+[00:46:38:301] [    1.891720] cpuidle: using governor menu␍␊
+[00:46:38:307] [    1.937369] ␍␊
+[00:46:38:307] [    1.937373] drivers/mmc/core/core.c...2019..  ===== mmc_rescan Begin....[mmc0]␍␊
+[00:46:38:316] [    1.937450] ␍␊
+[00:46:38:316] [    1.937452] =================␍␊
+[00:46:38:319] [    1.937456] sdmmc_rescan..2026..  ====find no SDMMC host. [mmc0]␍␊
+[00:46:38:324] [    1.937553] .Line4018..The End of SDMMC-probe Ver.6.07 The last modify date is 2013-12-20.  [sd_mmc]␍␊
+[00:46:38:333] [    1.939031] usbcore: registered new interface driver usbhid␍␊
+[00:46:38:339] [    1.939082] usbhid: USB HID core driver␍␊
+[00:46:38:344] [    1.939436] logger: created 256K log 'log_main'␍␊
+[00:46:38:347] [    1.939552] logger: created 256K log 'log_events'␍␊
+[00:46:38:353] [    1.939648] logger: created 256K log 'log_radio'␍␊
+[00:46:38:356] [    1.939742] logger: created 256K log 'log_system'␍␊
+[00:46:38:362] [    1.940071] zram: Created 1 device(s) ...␍␊
+[00:46:38:365] [    1.940505] i2c-core: driver [RK1000_CODEC] using legacy suspend method␍␊
+[00:46:38:373] [    1.940564] i2c-core: driver [RK1000_CODEC] using legacy resume method␍␊
+[00:46:38:379] [    2.091966] register rk1000 codec earlysuspend ok␍␊
+[00:46:38:385] [    2.092023] RK1000_CODEC 4-0060: Failed to add route Left DAC->Left Mixer␍␊
+[00:46:38:390] [    2.099080] asoc: rk1000_codec <-> rk29_i2s.1 mapping ok␍␊
+[00:46:38:396] [    2.099464] ALSA device list:␍␊
+[00:46:38:399] [    2.099496]   #0: RK29_RK1000␍␊
+[00:46:38:402] [    2.099618] GACT probability NOT on␍␊
+[00:46:38:405] [    2.099655] Mirror/redirect action on␍␊
+[00:46:38:408] [    2.099688] u32 classifier␍␊
+[00:46:38:411] [    2.099713]     Actions configured␍␊
+[00:46:38:414] [    2.099743] Netfilter messages via NETLINK v0.30.␍␊
+[00:46:38:420] [    2.099820] nf_conntrack version 0.5.0 (16384 buckets, 65536 max)␍␊
+[00:46:38:426] [    2.100140] ctnetlink v0.93: registering with nfnetlink.␍␊
+[00:46:38:431] [    2.100212] NF_TPROXY: Transparent proxy support initialized, version 4.1.0␍␊
+[00:46:38:437] [    2.100267] NF_TPROXY: Copyright (c) 2006-2007 BalaBit IT Ltd.␍␊
+[00:46:38:443] [    2.100581] xt_time: kernel timezone is -0000␍␊
+[00:46:38:448] [    2.100750] ip_tables: (C) 2000-2006 Netfilter Core Team␍␊
+[00:46:38:454] [    2.100928] arp_tables: (C) 2002 David S. Miller␍␊
+[00:46:38:457] [    2.101002] TCP cubic registered␍␊
+[00:46:38:460] [    2.101033] Initializing XFRM netlink socket␍␊
+[00:46:38:466] [    2.101451] NET: Registered protocol family 10␍␊
+[00:46:38:468] [    2.102054] Mobile IPv6␍␊
+[00:46:38:471] [    2.102102] ip6_tables: (C) 2000-2006 Netfilter Core Team␍␊
+[00:46:38:477] [    2.102239] IPv6 over IPv4 tunneling driver␍␊
+[00:46:38:483] [    2.102809] NET: Registered protocol family 17␍␊
+[00:46:38:485] [    2.102869] NET: Registered protocol family 15␍␊
+[00:46:38:491] [    2.103112] Bluetooth: RFCOMM TTY layer initialized␍␊
+[00:46:38:494] [    2.103188] Bluetooth: RFCOMM socket layer initialized␍␊
+[00:46:38:500] [    2.103232] Bluetooth: RFCOMM ver 1.11␍␊
+[00:46:38:503] [    2.103265] Bluetooth: BNEP (Ethernet Emulation) ver 1.3␍␊
+[00:46:38:509] [    2.103308] Bluetooth: HIDP (Human Interface Emulation) ver 1.2␍␊
+[00:46:38:514] [    2.103469] NET: Registered protocol family 35␍␊
+[00:46:38:520] [    2.103588] Registering the dns_resolver key type␍␊
+[00:46:38:525] [    2.103651] pmic set pm_suspend_volt:␍␊
+[00:46:38:528] [    2.103691] VFP support v0.3: implementor 41 architecture 3 part 30 variant 9 rev 4␍␊
+[00:46:38:534] [    2.103772] Registering SWP/SWPB emulation handler␍␊
+[00:46:38:540] [    2.104272] ddrfreq: verion 3.2 20131126␍␊
+[00:46:38:543] [    2.104313] ddrfreq: fix cpu pause bug␍␊
+[00:46:38:549] [    2.104347] ddrfreq: normal 396MHz video 0MHz video_low 0MHz dualview 0MHz idle 0MHz suspend 198MHz reboot 300MHz␍␊
+[00:46:38:557] [    2.105144] ddrfreq: change freq to 396 MHz when normal␍␊
+[00:46:38:563] [    2.106002] rtc_hym8563 1-0051: setting system clock to 2011-01-01 12:00:00 UTC (1293883200)␍␊
+[00:46:38:572] [    2.108908] asoc: dit-hifi <-> rk-spdif mapping ok␍␊
+[00:46:38:578] [    2.109363] usbcore: registered new interface driver snd-usb-audio␍␊
+[00:46:38:583] [    2.109508] Freeing init memory: 188K␍␊
+[00:46:38:586] [    2.128150] Console: switching to colour frame buffer device 240x67␍␊
+[00:46:38:593] [    2.199946] gp_rknand_info = : 0xde2a7b00␍␊
+[00:46:38:596] [    2.200102] rk30_chip_set:1 ␍␊
+[00:46:38:600] [    2.200217] FtlInit!␍␊
+[00:46:38:602] [    2.200281] No.1 FLASH ID:2c 64 44 4b a9 0␍␊
+[00:46:38:605] [    2.200364] No.3 FLASH ID:10 ff ff ff ff ff␍␊
+[00:46:38:611] [    2.200445] No.4 FLASH ID:10 ff ff ff ff ff␍␊
+[00:46:38:614] [    2.202157] FTL version: 5.0.18 20141015␍␊
+[00:46:38:617] [    2.218436] usb 2-1: new high speed USB device number 2 using usb20_host␍␊
+[00:46:38:642] [    2.429669] usb 2-1: New USB device found, idVendor=05e3, idProduct=0608␍␊
+[00:46:38:650] [    2.429806] usb 2-1: New USB device strings: Mfr=0, Product=1, SerialNumber=0␍␊
+[00:46:38:658] [    2.429957] usb 2-1: Product: USB2.0 Hub␍␊
+[00:46:38:661] [    2.430595] hub 2-1:1.0: USB hub found␍␊
+[00:46:38:664] [    2.430949] hub 2-1:1.0: 4 ports detected␍␊
+[00:46:38:670] [    2.451957] gBootMedia = 1 gSdmmcFwPartOffset =0!␍␊
+[00:46:38:672] [    2.452045] rknand_buffer.c version: 4.40 20130830!␍␊
+[00:46:38:678] [    2.464819] 3 cmdlinepart partitions found on MTD device rk29xxnand␍␊
+[00:46:38:684] [    2.464930] Creating 3 MTD partitions on "rk29xxnand":␍␊
+[00:46:38:689] [    2.465030] 0x000000400000-0x000000800000 : "uboot"␍␊
+[00:46:38:695] [    2.481421] 0x000000800000-0x000001800000 : "boot"␍␊
+[00:46:38:700] [    2.486511] 0x000018000000-0x0001df400000 : "linuxroot"␍␊
+[00:46:38:718] [    2.505351] udevd[110]: starting version 175␍␊
+[00:46:38:858] [    2.644991] EXT4-fs (mtdblock2): mounted filesystem with ordered data mode. Opts: (null)␍␊
+[00:46:38:921] [    2.708767] usb 2-1.1: new high speed USB device number 3 using usb20_host␍␊
+[00:46:39:022] [    2.809510] usb 2-1.1: New USB device found, idVendor=0bda, idProduct=0724␍␊
+[00:46:39:032] [    2.809868] usb 2-1.1: New USB device strings: Mfr=1, Product=2, SerialNumber=3␍␊
+[00:46:39:038] [    2.810216] usb 2-1.1: Product: 802.11n WLAN Adapter␍␊
+[00:46:39:041] [    2.810462] usb 2-1.1: Manufacturer: Realtek␍␊
+[00:46:39:047] [    2.810678] usb 2-1.1: SerialNumber: 00e04c000001␍␊
+[00:46:39:052] [    2.812799] rtk_btusb: btusb_probe: usb_interface dd009600, bInterfaceNumber 0, idVendor 0x0bda, idProduct 0x0000␍␊
+[00:46:39:061] [    2.813308] rtk_btusb: get_fw_table_entry: Product id = 0x0724, fw table entry size 39␍␊
+[00:46:39:069] [    2.822824] rtk_btusb: btusb_probe: download begining...␍␊
+[00:46:39:074] [    2.822896] rtk_btusb: btusb_probe: Failed to download fw patch␍␊
+[00:46:39:080] [    2.832539] rtk_btusb: btusb_probe: download ending...␍␊
+[00:46:39:085] [    2.842093] rtk_btusb: btusb_probe: Check bt reset flag 0␍␊
+[00:46:40:401] [    4.179013] systemd[1]: systemd 215 running in system mode. (+PAM +AUDIT +SELINUX +IMA +SYSVINIT +LIBCRYPTSETUP +GCRYPT +ACL +XZ -SECCOMP -APPARMOR)␍␊
+[00:46:40:422] [    4.189614] systemd[1]: Detected architecture 'arm'.␍␊
+[00:46:40:427] [    4.199667] systemd[1]: Running with unpopulated /etc.␍␊
+[00:46:40:460] [    4.243197] systemd[1]: Failed to insert module 'autofs4'␍␊
+[00:46:40:469] [    4.248932] systemd[1]: Set hostname to <rabian-rock>.␍␊
+[00:46:40:477] [    4.258835] systemd[1]: Initializing machine ID from random generator.␍␊
+[00:46:40:625] [    4.408519] systemd[1]: Populated /etc with preset unit settings.␍␊
+[00:46:40:788] [    4.573076] systemd-sysv-generator[226]: Ignoring creation of an alias rock.service for itself␍␊
+[00:46:40:849] [    4.633982] systemd[1]: Expecting device dev-ttyFIQ0.device...␍␊
+[00:46:40:861] [    4.641019] systemd[1]: Starting Forward Password Requests to Wall Directory Watch.␍␊
+[00:46:40:865] [    4.644410] systemd[1]: Started Forward Password Requests to Wall Directory Watch.␍␊
+[00:46:40:873] [    4.647889] systemd[1]: Starting Remote File Systems (Pre).␍␊
+[00:46:40:879] [    4.655119] systemd[1]: Reached target Remote File Systems (Pre).␍␊
+[00:46:40:885] [    4.658647] systemd[1]: Starting Encrypted Volumes.␍␊
+[00:46:40:891] [    4.665655] systemd[1]: Reached target Encrypted Volumes.␍␊
+[00:46:40:894] [    4.669220] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.␍␊
+[00:46:40:905] [    4.672760] systemd[1]: Starting Dispatch Password Requests to Console Directory Watch.␍␊
+[00:46:40:911] [    4.676301] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.␍␊
+[00:46:40:920] [    4.679847] systemd[1]: Starting Paths.␍␊
+[00:46:40:922] [    4.686924] systemd[1]: Reached target Paths.␍␊
+[00:46:40:929] [    4.690388] systemd[1]: Starting Swap.␍␊
+[00:46:40:932] [    4.697328] systemd[1]: Reached target Swap.␍␊
+[00:46:40:935] [    4.701062] systemd[1]: Starting Root Slice.␍␊
+[00:46:40:940] [    4.708575] systemd[1]: Created slice Root Slice.␍␊
+[00:46:40:944] [    4.712136] systemd[1]: Starting /dev/initctl Compatibility Named Pipe.␍␊
+[00:46:40:952] [    4.719759] systemd[1]: Listening on /dev/initctl Compatibility Named Pipe.␍␊
+[00:46:40:960] [    4.723437] systemd[1]: Starting Delayed Shutdown Socket.␍␊
+[00:46:40:963] [    4.730961] systemd[1]: Listening on Delayed Shutdown Socket.␍␊
+[00:46:40:970] [    4.734678] systemd[1]: Starting Journal Socket (/dev/log).␍␊
+[00:46:40:977] [    4.742378] systemd[1]: Listening on Journal Socket (/dev/log).␍␊
+[00:46:40:980] [    4.746076] systemd[1]: Starting User and Session Slice.␍␊
+[00:46:40:985] [    4.753870] systemd[1]: Created slice User and Session Slice.␍␊
+[00:46:40:991] [    4.757662] systemd[1]: Starting udev Control Socket.␍␊
+[00:46:40:997] [    4.765420] systemd[1]: Listening on udev Control Socket.␍␊
+[00:46:41:002] [    4.769261] systemd[1]: Starting udev Kernel Socket.␍␊
+[00:46:41:006] [    4.776977] systemd[1]: Listening on udev Kernel Socket.␍␊
+[00:46:41:014] [    4.780809] systemd[1]: Starting Journal Socket.␍␊
+[00:46:41:018] [    4.788551] systemd[1]: Listening on Journal Socket.␍␊
+[00:46:41:022] [    4.792297] systemd[1]: Starting System Slice.␍␊
+[00:46:41:025] [    4.799823] systemd[1]: Created slice System Slice.␍␊
+[00:46:41:031] [    4.803516] systemd[1]: Starting Increase datagram queue length...␍␊
+[00:46:41:193] [    4.970439] systemd[1]: Mounting Debug File System...␍␊
+[00:46:41:522] [    5.299236] systemd[1]: Mounted Huge Pages File System.␍␊
+[00:46:41:528] [    5.310512] systemd[1]: Starting Create list of required static device nodes for the current kernel...␍␊
+[00:46:42:203] [    5.979994] systemd[1]: Mounted POSIX Message Queue File System.␍␊
+[00:46:42:216] [    5.991137] systemd[1]: Starting udev Coldplug all Devices...␍␊
+[00:46:42:942] [    6.719839] systemd[1]: Starting system-getty.slice.␍␊
+[00:46:43:190] [    6.973822] systemd[1]: Created slice system-getty.slice.␍␊
+[00:46:43:543] [    6.978134] systemd[1]: Starting system-serial\x2dgetty.slice.␍␊
+[00:46:43:549] [    7.325552] systemd[1]: Created slice system-serial\x2dgetty.slice.␍␊
+[00:46:43:559] [    7.331139] systemd[1]: Started live-config contains the components that configure a live system during the boot process (late userspace)..␍␊
+[00:46:43:567] [    7.336113] systemd[1]: Starting Collect Read-Ahead Data...␍␊
+[00:46:43:716] [    7.499243] systemd[1]: Started Replay Read-Ahead Data.␍␊
+[00:46:43:730] [    7.504131] systemd[1]: Starting Slices.␍␊
+[00:46:43:739] [    7.522455] systemd[1]: Reached target Slices.␍␊
+[00:46:44:083] [    7.860793] systemd[1]: Mounted Debug File System.␍␊
+[00:46:44:181] [    7.958112] systemd-readahead[232]: Failed to create fanotify object: Function not implemented␍␊
+[00:46:44:330] [    8.113297] systemd[1]: Started Increase datagram queue length.␍␊
+[00:46:44:480] [    8.263451] systemd[1]: Started Create list of required static device nodes for the current kernel.␍␊
+[00:46:44:795] [    8.578712] systemd[1]: systemd-readahead-collect.service: main process exited, code=exited, status=1/FAILURE␍␊
+[00:46:45:143] [    8.920524] systemd[1]: Started Collect Read-Ahead Data.␍␊
+[00:46:45:303] [    9.086693] systemd[1]: Starting Load Kernel Modules...␍␊
+[00:46:45:467] [    9.250669] systemd[1]: Started Set Up Additional Binary Formats.␍␊
+[00:46:45:963] [    9.255869] systemd[1]: Starting Create Static Device Nodes in /dev...␍␊
+[00:46:45:971] [    9.739851] systemd[1]: Starting Syslog Socket.␍␊
+[00:46:45:979] [    9.756465] systemd[1]: Listening on Syslog Socket.␍␊
+[00:46:45:985] [    9.761279] systemd[1]: Starting Journal Service...␍␊
+[00:46:46:715] [   10.492104] systemd[1]: Started Journal Service.␍␊
+[00:46:47:479] [   11.255924] systemd-journald[238]: Failed to register hostname fd in event loop: Operation not permitted. Ignoring.␍␊
+[00:46:47:517] [   11.298584] waiting for get mac.␍␊
+[00:46:49:142] [   12.919174] systemd-udevd[239]: starting version 215␍␊
+[00:46:49:514] [   13.298631] waiting for get mac.␍␊
+[00:46:51:521] [   15.298640] waiting for get mac.␍␊
+[00:46:53:530] [   17.308475] waiting for get mac.␍␊
+[00:46:53:834] [   17.618398] DWC_OTG: ********vbus detect*********************************************␍␊
+[00:46:55:534] [   19.318457] waiting for get mac.␍␊
+[00:46:57:377] [   21.161940] systemd-journald[238]: Received request to flush runtime journal from PID 1␍␊
+[00:46:57:534] [   21.318546] waiting for get mac.␍␊
+[00:46:59:538] [   23.318590] waiting for get mac.␍␊
+[00:47:01:536] [   25.318848] waiting for get mac.␍␊
+[00:47:03:538] [   27.318570] waiting for get mac.␍␊
+[00:47:05:538] [   29.318550] waiting for get mac.␍␊
+[00:47:07:538] [   31.318558] waiting for get mac.␍␊
+[00:47:08:015] [   31.794577] netlink: 12 bytes leftover after parsing attributes.␍␊
+[00:47:08:029] [   31.810349] netlink: 12 bytes leftover after parsing attributes.␍␊
+[00:47:08:035] [   31.820845] netlink: 12 bytes leftover after parsing attributes.␍␊
+[00:47:09:532] [   33.318501] waiting for get mac.␍␊
+[00:47:10:737] [   34.522118] SWL 2d0(0), FSB = 5d vpc= 54,ec=39 th=12␍␊
+[00:47:11:537] [   35.318617] waiting for get mac.␍␊
+[00:47:13:515] [   37.304969] rk30-lcdc rk30-lcdc.0: blank mode:1␍␊
+[00:47:13:529] [   37.318815] waiting for get mac.␍␊
+[00:47:15:529] [   39.318853] waiting for get mac.␍␊
+[00:47:16:831] [   40.621054] rk30-lcdc rk30-lcdc.0: blank mode:0␍␊
+[00:47:17:529] [   41.318910] waiting for get mac.␍␊
+[00:47:17:795] ␍␍␊
+[00:47:17:805] Debian GNU/Linux 8 rabian-rock
