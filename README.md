@@ -70,6 +70,7 @@ cd ..
 
 # Append the device tree blob to zImage (CONFIG_ARM_APPENDED_DTB option) until we can use U-Boot device tree support.
 
+cd linux-stable
 cat arch/arm/boot/zImage arch/arm/boot/dts/rk3188-radxarock.dtb > zImage-dtb
 cd ..
 
