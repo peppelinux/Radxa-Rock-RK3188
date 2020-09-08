@@ -53,6 +53,7 @@ Other RK3188 DTS:
 - https://elixir.bootlin.com/linux/latest/source/arch/arm/boot/dts/rk3188-radxarock.dts
 - Kernel 5.9 http://sbexr.rabexc.org/latest/sources/56/809f64bee90a72.html
 - https://saurabhsengarblog.wordpress.com/2015/11/28/device-tree-tutorial-arm/
+- https://notabug.org/seokj/linux-rockchip/src/master/arch/arm/boot/dts
 
 
 ````
