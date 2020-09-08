@@ -108,6 +108,16 @@ Backup
 Understanding DTS/DTB:
 - https://elinux.org/images/f/f9/Petazzoni-device-tree-dummies_0.pdf
 
+Alternatives
+------------
+
+boot loader
+- https://www.barebox.org/
+- https://www.barebox.org/doc/latest/boards/rockchip.html
+- https://github.com/c0d3z3r0/radxarock-firmware
+- 
+
+
 Todo
 ----
 
