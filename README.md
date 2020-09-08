@@ -1,4 +1,4 @@
-# Radxa-Rock-RK3166
+# Radxa-Rock-RK3188
 Notes on flashing and usage of Radxa Rock boards.
 
 https://wiki.radxa.com/File:Rock_front.jpg
