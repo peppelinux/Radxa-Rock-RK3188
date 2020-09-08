@@ -3,15 +3,17 @@ Notes on flashing and usage of Radxa Rock boards.
 
 https://wiki.radxa.com/File:Rock_front.jpg
 
+Rabian official build
+---------------------
+
 ````
-apt install lzop libusb-1.0-0-dev git
+apt install lzop libusb-1.0-0-dev git flex bison build-essential gcc-arm-linux-gnueabihf lzop libncurses5-dev libssl-dev bc
 git clone https://github.com/radxa/rabian-build.git
 cd rabian-build
 ./rabian-build.sh rock
 ````
 
-Troubleshooting
----------------
+#### Troubleshooting
 
 Can't use 'defined(@array)' (Maybe you should just omit the defined()?) at kernel/timeconst.pl
 ````
@@ -20,17 +22,14 @@ Can't use 'defined(@array)' (Maybe you should just omit the defined()?) at kerne
 nano $(date +%Y%m%d)/rock-bsp/boards/rock/linux-rockchip/kernel/timeconst.pl
 /rabian-build.sh rock
 ````
-Flash
------
+#### Flash
 
 ````
 cd Linux_Upgrade_Tool_v1.21
 ./upgrade_tool uf /home/wert/RadxaRock_rk30/rabian-build/200905/rock-bsp/boards/rock/rockdev/rock_rabian_rock_200905_30273dc_nand.img
 ````
 
-
-First Access
-------------
+#### First Access
 
 usernme: rock
 passwd: rock
@@ -39,9 +38,6 @@ Build your own Kernel image
 ---------------------------
 
 ````
-apt install flex bison
-apt install git build-essential gcc-arm-linux-gnueabihf lzop libncurses5-dev libssl-dev bc
-
 # get linux
 git clone git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git
 cd linux-stable
@@ -64,7 +60,7 @@ make rockchip_defconfig
 make -j8 zImage dtbs
 ````
 
-#### create a boot image
+#### Boot image
 ````
 git clone https://github.com/neo-technologies/rockchip-mkbootimg.git
 cd rockchip-mkbootimg
@@ -92,7 +88,7 @@ find . ! -path "./.git*"  | cpio -H newc  -ov > initrd.img
 
 # Create the boot.img using mkbootimg (Rockchip version).
 mkbootimg --kernel zImage-dtb --ramdisk initrd.img -o boot.img
-
+````
 
 External Resources
 ------------------
