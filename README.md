@@ -59,6 +59,7 @@ SD card is ready
 Linux Kernel
 ------------
 
+````
 export CROSS_COMPILE=arm-linux-gnueabihf-
 export ARCH=arm
 
@@ -83,7 +84,7 @@ make -j8 modules
 export INSTALL_MOD_PATH=../BareBox_setup/rootfs
 mkdir -p $INSTALL_MOD_PATH
 make modules_install
-
+````
 
 Rootfs
 ------
