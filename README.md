@@ -100,7 +100,7 @@ export LANG=C
 /debootstrap/debootstrap --second-stage
 
 apt update
-apt install locales dialog openssh-server ntpdate htop net-tools sudo resolvconf udev ifupdown libpam-systemd
+apt install locales dialog openssh-server ntpdate htop net-tools sudo resolvconf udev ifupdown libpam-systemd i2c-tools
 dpkg-reconfigure locales
 
 apt clean
