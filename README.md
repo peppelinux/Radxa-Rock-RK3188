@@ -1,9 +1,3 @@
-RK3188 image creation with BareBox
-----------------------------------
-
-Notes about the usage of [BareBox](https://www.barebox.org/) with Radxa Rock RK3188.
-
-
 Prepare environment
 -------------------
 
@@ -86,6 +80,10 @@ mkdir -p $INSTALL_MOD_PATH
 make modules_install
 ````
 
+Now you just have to copy zImage-dtb in the boot partition of the sd card.
+In the next section we'll create the partitions on sd card.
+
+
 Rootfs
 ------
 
@@ -96,12 +94,13 @@ export TARGET_DIR=rootfs
 
 sudo debootstrap --arch=armhf --foreign buster $TARGET_DIR
 
+mount -o bind /dev /media/wert/linuxroot/dev/
 sudo chroot $TARGET_DIR
 export LANG=C
 /debootstrap/debootstrap --second-stage
 
 apt update
-apt install locales dialog openssh-server ntpdate htop net-tools sudo resolvconf udev ifupdown
+apt install locales dialog openssh-server ntpdate htop net-tools sudo resolvconf udev ifupdown libpam-systemd
 dpkg-reconfigure locales
 
 apt clean
@@ -152,3 +151,8 @@ gparted /dev/sdg
 
 # write partition to sd card
 dd if=rootfs.img of=/dev/sdg2 bs=4K conv=sync status=progress
+````
+
+mount /dev/sdg1 (boot partition) and copy the zImage
+
+cp zImage-dtb /mnt/zImage
