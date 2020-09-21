@@ -1,0 +1,431 @@
+DDR Version 1.04 20140217
+In
+DDR3
+300MHz
+Bus Width=32 Col=10 Bank=8 Row=15 CS=2 Die Bus-Width=16 Size=2048MB
+Memory OK
+OUT
+barebox 2020.08.0peppelinux-0.0.1-00078-gbef194fd8-dirty #11 Mon Sep 21 02:36:44 CEST 2020
+
+
+Board: Radxa Rock
+clk_register clk xin24m is already registered, skipping!
+arc-emac 10204000.ethernet@10204000.of: ARC EMAC detected with id: 0x7fd02
+mdio_bus: miibus0: probed
+dw_mmc 10214000.mmc@10214000.of: registered as mshc1
+mshc1: detected SD card version 1.0
+mshc1: registered mshc1
+netconsole: registered as netconsole-1
+i2c-gpio i2c-gpio0: using pins 58 (SDA) and 59 (SCL)
+malloc space: 0x9fefcf80 -> 0xdfdf9eff (size 1023 MiB)
+gpio-leds.of: probe permanently deferred
+envfs: no envfs (magic mismatch) - envfs never written?
+[?25h
+Hit any to stop autoboot:    3   2   1   0
+ext4 ext40: EXT2 rev 1, inode_size 128, descriptor size 32
+ext4 ext41: EXT2 rev 1, inode_size 256, descriptor size 64
+Booting entry 'mshc1'
+mounted /dev/mshc1.0 on /mnt/mshc1.0
+
+Loading ARM Linux zImage '/mnt/mshc1.0/zImage'
+zImage: concatenated oftree detected
+commandline: <NULL>
+Booting Linux on physical CPU 0x0
+Linux version 5.8.7 (root@wert-desktop) (arm-linux-gnueabihf-gcc (Ubuntu 9.3.0-10ubuntu1) 9.3.0, GNU ld (GNU Binutils for Ubuntu) 2.34) #6 SMP Sun Sep 20 23:19:00 CEST 2020
+CPU: ARMv7 Processor [413fc090] revision 0 (ARMv7), cr=10c5387d
+CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+OF: fdt: Machine model: Radxa Rock
+Memory policy: Data cache writealloc
+Zone ranges:
+  Normal   [mem 0x0000000060000000-0x000000008fffffff]
+  HighMem  [mem 0x0000000090000000-0x00000000dfffffff]
+Movable zone start for each node
+Early memory node ranges
+  node   0: [mem 0x0000000060000000-0x00000000dfffffff]
+Initmem setup node 0 [mem 0x0000000060000000-0x00000000dfffffff]
+percpu: Embedded 15 pages/cpu s29452 r8192 d23796 u61440
+Built 1 zonelists, mobility grouping on.  Total pages: 522752
+Kernel command line: console=ttyS2,115200  root=/dev/mmcblk0p2 rootwait init=/init
+Dentry cache hash table entries: 131072 (order: 7, 524288 bytes, linear)
+Inode-cache hash table entries: 65536 (order: 6, 262144 bytes, linear)
+mem auto-init: stack:off, heap alloc:off, heap free:off
+Memory: 2068764K/2097152K available (6144K kernel code, 347K rwdata, 1952K rodata, 1024K init, 255K bss, 28388K reserved, 0K cma-reserved, 1310720K highmem)
+rcu: Hierarchical RCU implementation.
+rcu: 	RCU event tracing is enabled.
+rcu: RCU calculated value of scheduler-enlistment delay is 10 jiffies.
+NR_IRQS: 16, nr_irqs: 16, preallocated irqs: 16
+L2C-310 enabling early BRESP for Cortex-A9
+L2C-310 full line of zeros enabled for Cortex-A9
+L2C-310 dynamic clock gating enabled, standby mode enabled
+L2C-310 cache controller enabled, 16 ways, 512 kB
+L2C-310: CACHE_ID 0x4100c0c8, AUX_CTRL 0x46050001
+random: get_random_bytes called from start_kernel+0x294/0x488 with crng_init=0
+clocksource: rk_timer: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 79635851949 ns
+sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 89478484971ns
+Console: colour dummy device 80x30
+Calibrating delay loop... 1196.85 BogoMIPS (lpj=5984256)
+pid_max: default: 32768 minimum: 301
+Mount-cache hash table entries: 2048 (order: 1, 8192 bytes, linear)
+Mountpoint-cache hash table entries: 2048 (order: 1, 8192 bytes, linear)
+CPU: Testing write buffer coherency: ok
+CPU0: Spectre v2: using BPIALL workaround
+CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+rockchip_smp_prepare_cpus: ncores 4
+Setting up static identity map for 0x60100000 - 0x60100060
+rcu: Hierarchical SRCU implementation.
+smp: Bringing up secondary CPUs ...
+CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+CPU1: Spectre v2: using BPIALL workaround
+CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+CPU2: Spectre v2: using BPIALL workaround
+CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+CPU3: Spectre v2: using BPIALL workaround
+smp: Brought up 1 node, 4 CPUs
+SMP: Total of 4 processors activated (4787.40 BogoMIPS).
+CPU: All CPU(s) started in SVC mode.
+devtmpfs: initialized
+VFP support v0.3: implementor 41 architecture 3 part 30 variant 9 rev 4
+clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+futex hash table entries: 1024 (order: 4, 65536 bytes, linear)
+pinctrl core: initialized pinctrl subsystem
+thermal_sys: Registered thermal governor 'step_wise'
+NET: Registered protocol family 16
+DMA: preallocated 256 KiB pool for atomic coherent allocations
+cpuidle: using governor ladder
+Failed to find PMU node
+hw-breakpoint: found 5 (+1 reserved) breakpoint and 1 watchpoint registers.
+hw-breakpoint: maximum watchpoint size is 4 bytes.
+SCSI subsystem initialized
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+mc: Linux media interface: v0.10
+videodev: Linux video capture interface: v2.00
+Bluetooth: Core ver 2.22
+NET: Registered protocol family 31
+Bluetooth: HCI device and connection manager initialized
+Bluetooth: HCI socket layer initialized
+Bluetooth: L2CAP socket layer initialized
+Bluetooth: SCO socket layer initialized
+clocksource: Switched to clocksource rk_timer
+NET: Registered protocol family 2
+tcp_listen_portaddr_hash hash table entries: 512 (order: 0, 6144 bytes, linear)
+TCP established hash table entries: 8192 (order: 3, 32768 bytes, linear)
+TCP bind hash table entries: 8192 (order: 4, 65536 bytes, linear)
+TCP: Hash tables configured (established 8192 bind 8192)
+UDP hash table entries: 512 (order: 2, 16384 bytes, linear)
+UDP-Lite hash table entries: 512 (order: 2, 16384 bytes, linear)
+NET: Registered protocol family 1
+RPC: Registered named UNIX socket transport module.
+RPC: Registered udp transport module.
+RPC: Registered tcp transport module.
+RPC: Registered tcp NFSv4.1 backchannel transport module.
+workingset: timestamp_bits=30 max_order=19 bucket_order=0
+NFS: Registering the id_resolver key type
+Key type id_resolver registered
+Key type id_legacy registered
+fuse: init (API version 7.31)
+bounce: pool size: 64 pages
+Block layer SCSI generic (bsg) driver version 0.4 loaded (major 249)
+io scheduler mq-deadline registered
+io scheduler kyber registered
+dma-pl330 20018000.dma-controller: Loaded driver for PL330 DMAC-241330
+dma-pl330 20018000.dma-controller: 	DBUFF-32x8bytes Num_Chans-6 Num_Peri-12 Num_Events-12
+dma-pl330 20078000.dma-controller: Loaded driver for PL330 DMAC-241330
+dma-pl330 20078000.dma-controller: 	DBUFF-64x8bytes Num_Chans-7 Num_Peri-20 Num_Events-14
+Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+10124000.serial: ttyS0 at MMIO 0x10124000 (irq = 26, base_baud = 1500000) is a 16550A
+10126000.serial: ttyS1 at MMIO 0x10126000 (irq = 27, base_baud = 1500000) is a 16550A
+20064000.serial: ttyS2 at MMIO 0x20064000 (irq = 34, base_baud = 1500000) is a 16550A
+printk: console [ttyS2] enabled
+20068000.serial: ttyS3 at MMIO 0x20068000 (irq = 35, base_baud = 1500000) is a 16550A
+brd: module loaded
+libphy: Fixed MDIO Bus: probed
+hso: drivers/net/usb/hso.c: Option Wireless
+usbcore: registered new interface driver hso
+usbcore: registered new interface driver asix
+usbcore: registered new interface driver ax88179_178a
+usbcore: registered new interface driver cdc_ether
+usbcore: registered new interface driver dm9601
+usbcore: registered new interface driver smsc95xx
+usbcore: registered new interface driver net1080
+usbcore: registered new interface driver cdc_subset
+usbcore: registered new interface driver zaurus
+usbcore: registered new interface driver cdc_ncm
+usbcore: registered new interface driver cdc_acm
+cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+i2c /dev entries driver
+rtc-hym8563 1-0051: no valid clock/calendar values available
+rtc-hym8563 1-0051: registered as rtc0
+rtc-hym8563 1-0051: no valid clock/calendar values available
+rtc-hym8563 1-0051: hctosys: unable to read the hardware clock
+REG1: supplied by vsys
+REG2: supplied by vsys
+REG3: supplied by vsys
+REG4: supplied by vsys
+VCC_IO: Bringing 3000000uV into 3300000-3300000uV
+REG5: supplied by VCC_IO
+REG6: supplied by VCC_IO
+VDD_HDMI: Bringing 1200000uV into 2500000-2500000uV
+REG7: supplied by VCC_IO
+REG8: supplied by vsys
+REG9: supplied by vsys
+REG10: supplied by vsys
+REG11: supplied by vsys
+REG12: supplied by vsys
+usbcore: registered new interface driver uvcvideo
+USB Video Class driver (1.1.1)
+gspca_main: v2.14.0 registered
+usbcore: registered new interface driver em28xx
+em28xx: Registered (Em28xx v4l2 Extension) extension
+softdog: initialized. soft_noboot=0 soft_margin=60 sec soft_panic=0 (nowayout=0)
+Bluetooth: HCI UART driver ver 2.3
+Bluetooth: HCI UART protocol H4 registered
+usbcore: registered new interface driver btusb
+Synopsys Designware Multimedia Card Interface Driver
+dwmmc_rockchip 10214000.mmc: Using external DMA controller.
+dwmmc_rockchip 10214000.mmc: Version ID is 240a
+dwmmc_rockchip 10214000.mmc: DW MMC controller at irq 31,32 bit host data width,256 deep fifo
+sdmmc-supply: supplied by VCC_IO
+mmc_host mmc0: Bus speed (slot 0) = 31821429Hz (slot req 400000Hz, actual 397767HZ div = 40)
+hid: raw HID events driver (C) Jiri Kosina
+usbcore: registered new interface driver usbhid
+usbhid: USB HID core driver
+NET: Registered protocol family 10
+Segment Routing with IPv6
+sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver
+NET: Registered protocol family 17
+Bluetooth: RFCOMM TTY layer initialized
+Bluetooth: RFCOMM socket layer initialized
+Bluetooth: RFCOMM ver 1.11
+Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+Bluetooth: BNEP filters: protocol multicast
+Bluetooth: BNEP socket layer initialized
+Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+Bluetooth: HIDP socket layer initialized
+Key type dns_resolver registered
+Registering SWP/SWPB emulation handler
+rockchip_emac 10204000.ethernet: ARC EMAC detected with id: 0x7fd02
+rockchip_emac 10204000.ethernet: IRQ is 30
+rockchip_emac 10204000.ethernet: MAC address is now b6:cd:2b:bd:a5:e8
+libphy: Synopsys MII Bus: probed
+mmc_host mmc0: Bus speed (slot 0) = 31821429Hz (slot req 50000000Hz, actual 31821429HZ div = 0)
+mmc0: new high speed SD card at address e624
+mmcblk0: mmc0:e624 SU02G 1.84 GiB 
+ mmcblk0: p1 p2
+rockchip_emac 10204000.ethernet: connected to SMSC LAN8710/LAN8720 phy with id 0x7c0f1
+input: gpio-keys as /devices/platform/gpio-keys/input/input0
+random: fast init done
+EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+VFS: Mounted root (ext4 filesystem) readonly on device 179:2.
+devtmpfs: mounted
+Freeing unused kernel memory: 1024K
+Run /init as init process
+systemd[1]: System time before build time, advancing clock.
+systemd[1]: systemd 241 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD -IDN2 +IDN -PCRE2 default-hierarchy=hybrid)
+systemd[1]: Detected architecture arm.
+
+Welcome to [1mDebian GNU/Linux 10 (buster)[0m!
+
+systemd[1]: Set hostname to <radxa-board>.
+systemd[1]: File /lib/systemd/system/systemd-journald.service:12 configures an IP firewall (IPAddressDeny=any), but the local system does not support BPF/cgroup based firewalling.
+systemd[1]: Proceeding WITHOUT firewalling in effect! (This warning is only shown for the first loaded unit using IP firewalling.)
+random: systemd: uninitialized urandom read (16 bytes read)
+random: systemd: uninitialized urandom read (16 bytes read)
+systemd[1]: Reached target Swap.
+[[0;32m  OK  [0m] Reached target [0;1;39mSwap[0m.
+random: systemd: uninitialized urandom read (16 bytes read)
+systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[[0;32m  OK  [0m] Started [0;1;39mDispatch Password ts to Console Directory Watch[0m.
+systemd[1]: Reached target Remote File Systems.
+[[0;32m  OK  [0m] Reached target [0;1;39mRemote File Systems[0m.
+systemd[1]: Listening on udev Control Socket.
+[[0;32m  OK  [0m] Listening on [0;1;39mudev Control Socket[0m.
+systemd[1]: Listening on Journal Socket.
+[[0;32m  OK  [0m] Listening on [0;1;39mJournal Socket[0m.
+         Starting [0;1;39mCreate list of reodes for the current kernel[0m...
+         Starting [0;1;39mNameserver information manager[0m...
+         Starting [0;1;39mLoad Kernel Modules[0m...
+[[0;32m  OK  [0m] Listening on [0;1;39minitctl Compatibility Named Pipe[0m.
+[[0;32m  OK  [0m] Listening on [0;1;39mSyslog Socket[0m.
+         Mounting [0;1;39mKernel Debug File System[0m...
+[[0;32m  OK  [0m] Listening on [0;1;39mudev Kernel Socket[0m.
+         Starting [0;1;39mudev Coldplug all Devices[0m...
+[[0;32m  OK  [0m] Started [0;1;39mForward Password Ruests to Wall Directory Watch[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mLocal Encrypted Volumes[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSlices[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mPaths[0m.
+[[0;32m  OK  [0m] Listening on [0;1;39mJournal Socket (/dev/log)[0m.
+[[0;32m  OK  [0m] Listening on [0;1;39mfsck to fsckd communication Socket[0m.
+         Starting [0;1;39mFile System Check on Root Device[0m...
+         Starting [0;1;39mJournal Service[0m...
+[[0;32m  OK  [0m] Reached target [0;1;39mSockets[0m.
+[[0;32m  OK  [0m] Created slice [0;1;39msystem-getty.slice[0m.
+[[0;32m  OK  [0m] Created slice [0;1;39msystem-serial\x2dgetty.slice[0m.
+------------[ cut here ]------------
+WARNING: CPU: 3 PID: 71 at drivers/net/phy/phy.c:830 phy_error+0x20/0x48
+Modules linked in:
+CPU: 3 PID: 71 Comm: irq/163-Synopsy Not tainted 5.8.7 #6
+Hardware name: Rockchip (Device Tree)
+[<c010dc60>] (unwind_backtrace) from [<c0109a18>] (show_stack+0x10/0x14)
+[<c0109a18>] (show_stack) from [<c0365ee4>] (dump_stack+0x8c/0xa8)
+[<c0365ee4>] (dump_stack) from [<c011afc4>] (__warn+0xb8/0xcc)
+[<c011afc4>] (__warn) from [<c011b054>] (warn_slowpath_fmt+0x7c/0xa4)
+[<c011b054>] (warn_slowpath_fmt) from [<c04601f8>] (phy_error+0x20/0x48)
+[<c04601f8>] (phy_error) from [<c0460594>] (phy_interrupt+0x5c/0x80)
+[<c0460594>] (phy_interrupt) from [<c015a4e0>] (irq_thread_fn+0x1c/0x58)
+[<c015a4e0>] (irq_thread_fn) from [<c015a3d4>] (irq_thread+0x108/0x1f8)
+[<c015a3d4>] (irq_thread) from [<c01359bc>] (kthread+0xfc/0x108)
+[<c01359bc>] (kthread) from [<c0100148>] (ret_from_fork+0x14/0x2c)
+Exception stack(0xee0d1fb0 to 0xee0d1ff8)
+1fa0:                                     00000000 00000000 00000000 00000000
+1fc0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+1fe0: 00000000 00000000 00000000 00000000 00000013 00000000
+---[ end trace eb67befef2222af9 ]---
+[[0;32m  OK  [0m] Started [0;1;39mJournal Service[0m.
+[[0;32m  OK  [0m] Started [0;1;39mCreate list of req nodes for the current kernel[0m.
+[[0;32m  OK  [0m] Started [0;1;39mLoad Kernel Modules[0m.
+[[0;32m  OK  [0m] Mounted [0;1;39mKernel Debug File System[0m.
+[[0;32m  OK  [0m] Started [0;1;39mNameserver information manager[0m.
+[[0;32m  OK  [0m] Started [0;1;39mFile System Check Daemon to report status[0m.
+         Mounting [0;1;39mKernel Configuration File System[0m...
+         Starting [0;1;39mApply Kernel Variables[0m...
+         Mounting [0;1;39mFUSE Control File System[0m...
+
+Checking in progress on 1 disk (0,0% complete)
+[[0;32m  OK  [0m] Mounted [0;1;39mKernel Configuration File System[0m.
+[[0;32m  OK  [0m] Mounted [0;1;39mFUSE Control File System[0m.
+
+Checking in progress on 1 disk (4,7% complete)
+[[0;32m  OK  [0m] Started [0;1;39mApply Kernel Variables[0m.
+[[0;32m  OK  [0m] Started [0;1;39mudev Coldplug all Devices[0m.
+
+Checking in progress on 1 disk (70,0% complete)
+
+Checking in progress on 1 disk (70,0% complete)
+
+Checking in progress on 1 disk (70,1% complete)
+         Starting [0;1;39mHelper to synchronize boot up for ifupdown[0m...
+
+Checking in progress on 1 disk (71,1% complete)
+
+Checking in progress on 1 disk (75,9% complete)
+
+Checking in progress on 1 disk (78,6% complete)
+
+Checking in progress on 1 disk (81,7% complete)
+
+Checking in progress on 1 disk (84,6% complete)
+
+Checking in progress on 1 disk (86,7% complete)
+[[0;32m  OK  [0m] Started [0;1;39mHelper to synchronize boot up for ifupdown[0m.
+
+Checking in progress on 1 disk (88,2% complete)
+
+Checking in progress on 1 disk (91,4% complete)
+
+Checking in progress on 1 disk (92,0% complete)
+
+Checking in progress on 1 disk (94,2% complete)
+
+Checking in progress on 1 disk (100,0% complete)
+
+Checking in progress on 0 disks (100,0% complete)
+[[0;32m  OK  [0m] Started [0;1;39mFile System Check on Root Device[0m.
+         Starting [0;1;39mRemount Root and Kernel File Systems[0m...
+EXT4-fs (mmcblk0p2): re-mounted. Opts: (null)
+[[0;32m  OK  [0m] Started [0;1;39mRemount Root and Kernel File Systems[0m.
+         Starting [0;1;39mCreate System Users[0m...
+         Starting [0;1;39mLoad/Save Random Seed[0m...
+         Starting [0;1;39mFlush Journal to Persistent Storage[0m...
+[[0;32m  OK  [0m] Started [0;1;39mLoad/Save Random Seed[0m.
+systemd-journald[99]: Received request to flush runtime journal from PID 1
+[[0;32m  OK  [0m] Started [0;1;39mFlush Journal to Persistent Storage[0m.
+[[0;32m  OK  [0m] Started [0;1;39mCreate System Users[0m.
+         Starting [0;1;39mCreate Static Device Nodes in /dev[0m...
+------------[ cut here ]------------
+WARNING: CPU: 3 PID: 71 at drivers/net/phy/phy.c:830 phy_error+0x20/0x48
+Modules linked in:
+CPU: 3 PID: 71 Comm: irq/163-Synopsy Tainted: G        W         5.8.7 #6
+Hardware name: Rockchip (Device Tree)
+[<c010dc60>] (unwind_backtrace) from [<c0109a18>] (show_stack+0x10/0x14)
+[<c0109a18>] (show_stack) from [<c0365ee4>] (dump_stack+0x8c/0xa8)
+[<c0365ee4>] (dump_stack) from [<c011afc4>] (__warn+0xb8/0xcc)
+[<c011afc4>] (__warn) from [<c011b054>] (warn_slowpath_fmt+0x7c/0xa4)
+[<c011b054>] (warn_slowpath_fmt) from [<c04601f8>] (phy_error+0x20/0x48)
+[<c04601f8>] (phy_error) from [<c0460594>] (phy_interrupt+0x5c/0x80)
+[<c0460594>] (phy_interrupt) from [<c015a4e0>] (irq_thread_fn+0x1c/0x58)
+[<c015a4e0>] (irq_thread_fn) from [<c015a3d4>] (irq_thread+0x108/0x1f8)
+[<c015a3d4>] (irq_thread) from [<c01359bc>] (kthread+0xfc/0x108)
+[<c01359bc>] (kthread) from [<c0100148>] (ret_from_fork+0x14/0x2c)
+Exception stack(0xee0d1fb0 to 0xee0d1ff8)
+1fa0:                                     00000000 00000000 00000000 00000000
+1fc0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+1fe0: 00000000 00000000 00000000 00000000 00000013 00000000
+[[0;32m  OK  [0---[ end trace eb67befef2222afa ]---
+m] Started [0;1;39mCreate Static Device Nodes in /dev[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mLocal File Systems (Pre)[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mLocal File Systems[0m.
+         Starting [0;1;39mRaise network interfaces[0m...
+         Starting [0;1;39mCreate Volatile Files and Directories[0m...
+         Starting [0;1;39mudev Kernel Device Manager[0m...
+[[0;32m  OK  [0m] Started [0;1;39mCreate Volatile Files and Directories[0m.
+[[0;32m  OK  [0m] Started [0;1;39mRaise network interfaces[0m.
+[[0;32m  OK  [0m] Started [0;1;39mudev Kernel Device Manager[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mNetwork[0m.
+         Starting [0;1;39mUpdate UTMP about System Boot/Shutdown[0m...
+         Starting [0;1;39mNetwork Time Synchronization[0m...
+[[0;32m  OK  [0m] Started [0;1;39mUpdate UTMP about System Boot/Shutdown[0m.
+[[0;32m  OK  [0m] Started [0;1;39mNetwork Time Synchronization[0m.
+[[0;32m  OK  [0m] Found device [0;1;39m/dev/ttyS2[0m.
+[[0;32m  OK  [0m] Listening on [0;1;39mLoad/Save RF itch Status /dev/rfkill Watch[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSystem Time Synchronized[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSystem Initialization[0m.
+[[0;32m  OK  [0m] Started [0;1;39mDaily apt download activities[0m.
+[[0;32m  OK  [0m] Started [0;1;39mDaily rotation of log files[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mBasic System[0m.
+         Starting [0;1;39mSystem Logging Service[0m...
+[[0;32m  OK  [0m] Started [0;1;39mRegular background program processing daemon[0m.
+[[0;32m  OK  [0m] Started [0;1;39mDaily apt upgrade and clean activities[0m.
+         Starting [0;1;39mgetty on tty2-ttynd logind are not available[0m...
+         Starting [0;1;39mPermit User Sessions[0m...
+[[0;32m  OK  [0m] Started [0;1;39mDaily Cleanup of Temporary Directories[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mTimers[0m.
+[[0;32m  OK  [0m] Started [0;1;39mSystem Logging Service[0m.
+[[0;32m  OK  [0m] Started [0;1;39mPermit User Sessions[0m.
+[[0;32m  OK  [0m] Started [0;1;39mGetty on tty1[0m.
+[[0;32m  OK  [0m] Started [0;------------[ cut here ]------------
+1;39mSerial GettWARNING: CPU: 3 PID: 71 at drivers/net/phy/phy.c:830 phy_error+0x20/0x48
+y on ttyS2[0m.
+Modules linked in:
+CPU: 3 PID: 71 Comm: irq/163-Synopsy Tainted: G        W         5.8.7 #6
+Hardware name: Rockchip (Device Tree)
+[<c010dc60>] (unwind_backtrace) from [<c0109a18>] (show_stack+0x10/0x14)
+[<c0109a18>] (show_stack) from [<c0365ee4>] (dump_stack+0x8c/0xa8)
+[<c0365ee4>] (dump_stack) from [<c011afc4>] (__warn+0xb8/0xcc)
+[<c011afc4>] (__warn) from [<c011b054>] (warn_slowpath_fmt+0x7c/0xa4)
+[<c011b054>] (warn_slowpath_fmt) from [<c04601f8>] (phy_error+0x20/0x48)
+[<c04601f8>] (phy_error) from [<c0460594>] (phy_interrupt+0x5c/0x80)
+[<c0460594>] (phy_interrupt) from [<c015a4e0>] (irq_thread_fn+0x1c/0x58)
+[<c015a4e0>] (irq_thread_fn) from [<c015a3d4>] (irq_thread+0x108/0x1f8)
+[<c015a3d4>] (irq_thread) from [<c01359bc>] (kthread+0xfc/0x108)
+[<c01359bc>] (kthread) from [<c0100148>] (ret_from_fork+0x14/0x2c)
+Exception stack(0xee0d1fb0 to 0xee0d1ff8)
+1fa0:                                     00000000 00000000 00000000 00000000
+[1fc0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[0;32m  OK  [01fe0: 00000000 00000000 00000000 00000000 00000013 00000000
+m---[ end trace eb67befef2222afb ]---
+] Started [0;1;39mGetty on tty2[0m.
+[[0;32m  OK  [0m] Started [0;1;39mGetty on tty3[0m.
+[[0;32m  OK  [0m] Started [0;1;39mGetty on tty4[0m.
+[[0;32m  OK  [0m] Started [0;1;39mGetty on tty5[0m.
+[[0;32m  OK  [0m] Started [0;1;39mGetty on tty6[0m.
+[[0;32m  OK  [0m] Started [0;1;39mgetty on tty2-tty6 and logind are not available[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mLogin Prompts[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mMulti-User System[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mGraphical Interface[0m.
+         Starting [0;1;39mUpdate UTMP about System Runlevel Changes[0m...
+[[0;32m  OK  [0m] Started [0;1;39mUpdate UTMP about System Runlevel Changes[0m.
+
+
+Debian GNU/Linux 10 radxa-board ttyS2
