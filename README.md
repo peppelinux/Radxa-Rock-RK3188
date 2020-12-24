@@ -1,9 +1,10 @@
 Prepare environment
 -------------------
 
+````
 apt update
 apt install lzop libusb-1.0-0-dev git flex bison build-essential gcc-arm-linux-gnueabihf lzop libncurses5-dev libssl-dev bc wget rsync
-
+````
 
 BareBox bootloader
 ------------------
